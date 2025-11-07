@@ -1,0 +1,23 @@
+3 bootstrap classes :
+    -> Container 
+    -> Row 
+    -> Col 
+
+Whenever we apply on any div ,Container class then it automatically its div width becomes 1140px orr jo div hain automatically center main hojata hai means left or right side se margin auto hojata hai 
+
+Extra small, Small, Medium,  large , Extra large 
+
+
+Extra large >= 1200px
+large >= 992px
+
+
+container > row > cols
+
+col-sm
+
+col-md 
+
+col-lg 
+
+col-xl
