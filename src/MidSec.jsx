@@ -1,23 +1,25 @@
-export default function MidSec(){
+import center2 from "./imgs/center2.png";
 
-    return <div className="container-fluid py-5">
-        <div className="container">
-            <div className="row align-items-center">
-                <div className="col">
-                    <div className="div1">Welcome!</div>
-                    <div className="div2">Manage your 
-                        <span class = "spn2">
-                          Deals
-                        </span>               
-                        </div>
-                    <div className="div3 py-1">Get Started</div>
-                </div>
-                <div className="col">
-                    <img src="./src/imgs/center2.png" className="img-fluid imgcen custom-cut shadow-lg rounded-4" width= "450px"/>
-                </div>
+export default function MidSec() {
+  return (
+    <div className="container-fluid">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6 midleft order-md-0 order-1">
+            <div class = "midson">
+              <div>Welcome! </div>
+              <div>
+                Manage Your
+                <span> Deals</span>
+              </div>
+              <div>Get Started</div>
             </div>
+          </div>
+          <div className="col-md-6 c2img order-md-1 order-0">
+            <img src={center2} alt="photo" class="img-fluid" />
+          </div>
         </div>
+      </div>
     </div>
-
-
+  );
 }
