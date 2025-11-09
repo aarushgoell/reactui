@@ -1,0 +1,12 @@
+@media (min-width: 768px) and (max-width :991px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 1000px;
+    }
+}
+
+/* 
+@media (max-width :768px) {
+    .nav1,.nav2{
+        display: none;
+    }
+} */

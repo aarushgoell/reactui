@@ -21,3 +21,13 @@ col-md
 col-lg 
 
 col-xl
+
+
+
+
+laptop  XXL : >= 1400 min
+        XL : 1200px to 1399px
+        LG : 992px min to 1199px max
+tabs    MD : 768px min to 991px max
+        SM : 576px min to 767px max  
+Mobile  XS : 0px min to 575px max 
