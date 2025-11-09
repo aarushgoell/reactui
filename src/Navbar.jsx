@@ -1,5 +1,12 @@
 import { useState } from "react";
 
+import bell from "./imgs/bell.png";
+import center2 from "./imgs/center2.png";
+import cp2 from "./imgs/cp2.png";
+import list from "./imgs/list.png";
+import menu from "./imgs/menu.png";
+
+
 export default function Navbar() {
   const data = [
     "Dashboard",
@@ -30,7 +37,7 @@ export default function Navbar() {
                 setMenu(true);
               }}
             >
-              <img src="./src/imgs/menu.png" width="15px" height="15px" />
+              <img src = {menu} width="15px" height="15px" />
               <span> Menu</span>
             </div>
           </div>
@@ -60,7 +67,7 @@ export default function Navbar() {
           </div>
           <div className="col-md-2 nav3 col-3">
             <div class="icons">
-              <img src="./src/imgs/bell.png" width="15px" height="15px" />
+              <img src={bell} width="15px" height="15px" />
               <div>Michael</div>
               <div>M</div>
             </div>
